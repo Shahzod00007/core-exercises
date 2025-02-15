@@ -2,7 +2,7 @@ package integers;
 
 import java.util.Scanner;
 
-public class Integer7 {
+public class Integer06 {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.print("Enter N=");
@@ -12,8 +12,6 @@ public class Integer7 {
             int r1=N%10/1;
             System.out.println("r10 "+r10);
             System.out.println("r1 "+r1);
-            int c=r10+r1;
-            System.out.println("raqamlar yigindisi c= "+c);
 
         }else {
             System.out.println("N soni ikki xonali son emas:");
